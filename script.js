@@ -14,3 +14,14 @@ window.addEventListener("load", function() {
    })
    
 });
+
+let form = document.querySelector("form");
+let faultyItems = document.getElementbyId("faultyItems"); 
+faultyItems.style.visibility = "hidden";
+
+form.addEventListener("submit", function(event) {
+    let submitButton = document.getElementById(formSubmit);
+    event.preventDefault();
+    formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel); 
+
+}); 
