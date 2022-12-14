@@ -38,6 +38,6 @@ window.addEventListener("load", function() {
     
     }); 
     
- });
+ })
  
  
